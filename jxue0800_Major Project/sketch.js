@@ -1,16 +1,24 @@
-let Background; // Background image variable
-let Tower; // Tower image variable
-let lines = []; // Array to store Line objects
-let backgroundGraphics; // Graphics buffer for the background image
-let towerGraphics; // Graphics buffer for the tower image
-let maxLines = 1000; // Maximum number of lines
-let seaNoise = []; // Array to store sea wave noise
-let seaY; // Starting position for the first sea wave
-let sea2Y; // Starting position for the second sea wave
-let sea3Y; // Starting position for the third sea wave
-let sea4Y; // Starting position for the fourth sea wave
-let sea5Y; // Starting position for the fifth sea wave
-let sea6Y; // Starting position for the sixth sea wave
+// background image and tower variable
+let Background; 
+let Tower; 
+
+// array to store Line objects
+let lines = []; 
+
+// graphics buffer for the background and tower image
+let backgroundGraphics; 
+let towerGraphics; 
+
+let maxLines = 1000; // maximum number of lines
+let seaNoise = []; // array to store sea wave noise
+
+// Starting position for the sea wave
+let seaY; 
+let sea2Y; 
+let sea3Y; 
+let sea4Y; 
+let sea5Y; 
+let sea6Y; 
 
 // line class definition
 class Line {
