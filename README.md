@@ -17,7 +17,7 @@ Van Gogh's distinctive stippling style with a flowing effect like a line moving 
 
 **How was this accomplished?**
 
--The group code
+**The group code**
 
 1. Image loading and processing: The background and tower images are loaded in the preload function and resized in the setup function to create a graphical object containing a large number of lines as a background.
 
@@ -32,6 +32,6 @@ Van Gogh's distinctive stippling style with a flowing effect like a line moving 
 
 
 
--Personal Code Wave effect:
+**Personal Code Wave effect:**
 
  -Use Perlin noise to generate wave data, and draw multiple waves with different heights according to the noise data in draw function to achieve the effect of near big and far small waves. The waves cover the background and the randomly refreshed dynamic lines cover the waves to achieve a three-dimensional hierarchy, and the refreshing and extending of the lines enhances the visual effect of the wave ripples.
